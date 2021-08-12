@@ -1,0 +1,108 @@
+ * {
+    padding: 0pt;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(216, 203, 203, 0.753);
+}
+.container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 400px;
+    width: 520px;
+    top: 40px;
+    border: solid 2px;
+    background-color: rgba(216, 173, 235, 0.897);
+}
+.heading h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgba(163, 84, 199, 0.767);
+    margin-top: 0px;
+    height: 60px;
+    border-radius: 0px 0px 0px 80px;
+}
+.data_input { 
+   margin-top: 50px;
+ 
+}
+.bill_amount label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-weight: 1000;
+}
+.bill_amount p {
+    display: inline;
+    font-size: 15px;
+    margin-left: 140px;
+}
+.bill_amount input {
+    display: inline;
+    font-size: 15px;
+    padding: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.service label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;   
+    font-weight: 1000;
+}
+.service select {
+    padding: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    margin-left: 170px;
+}
+.bill_sharing label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;   
+    font-weight: 1000;
+}
+.bill_sharing input {
+    display: inline;
+    font-size: 15px;
+    padding: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+}
+.button button{
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 205px;
+}
+.output {
+    height: 150px;
+    margin-top: 10px;
+}
+.output h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result #result {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.result #Tip_amout {
+    display: flex;
+    justify-content: center;
+}
